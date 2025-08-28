@@ -10,11 +10,10 @@ console.log(listaItens);,
 // botao.addEventListener('click', function() {
 //    alert("voce clicou no botao!") 
 // });
-const cor=document.getElementByTo('Btn');
+const cor=document.getElementById('btn');
 cor.addEventListener('Click', function(){
-
-document.body.style.backgroundColor = ('black')
-})
+    document.body.style.backgroundColor = 'black'
+});
 
 
 
