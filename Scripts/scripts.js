@@ -6,7 +6,7 @@ console.log(document.body.childNodes[1].childNodes[1].textContent);
 //Selecionar por TAG
 const listaItens = document.getElementsByTagName('li');
 console.log(listaItens);,
-const botao = document.getElementById('btn');
-botao.addEventListener('click', function(){
-   alert("voce clicou no botao!") 
-});
+// const botao = document.getElementById('btn');
+// botao.addEventListener('click', function(){
+//    alert("voce clicou no botao!") 
+// });
